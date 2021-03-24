@@ -6,25 +6,24 @@
 #
 ## GUI OF our App
 ### Homepage
-![](Demoss/Homepage.jpeg)
-### Footer
-![](Demoss/Footer.jpeg)
-### Signup
-![](Demoss/Signup.jpeg)
-### Login
-![](Demoss/Login.jpeg)
-### Profile
-![](Demoss/Profile.jpeg)
-### Men
-![](Demoss/Men.jpeg)
-### Women
-![](Demoss/Women.jpeg)
-### Cart
-![](Demoss/Cart.jpeg)
-### Product
-![](Demoss/Product.jpeg)
-### Aboutus
-![](Demoss/Aboutus.jpeg)
+![](Bharatappss/Homepage.jpeg)
+### SignupPage
+![](Bharatappss/Register.jpeg)
+### User_Login
+![](Bharatappss/UserLogin.jpeg)
+### Admin_Login
+![](Bharatappss/AdminLogin.jpeg)
+### Toasted_msg
+![](Bharatappss/Categoryreach.jpeg)
+### Category
+![](Bharatappss/Category.jpeg)
+### Product page
+![](Bharatappss/Productdata.jpeg)
+### Imgupload
+![](Bharatappss/Productimg.jpeg)
+
+### Logout
+![](Bharatappss/Logout.jpeg)
 
 
 
