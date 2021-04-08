@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/bharat"
+        />
+
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:text="Made in INDIA initiative"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textColor="#9FD6D0"
+        android:textColorHighlight="#BD7979"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Mobile"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
+        android:inputType="phone"
+        android:textColor="#776E6E"
+        android:textColorHighlight="#A18282" />
+
+    <Button
+        android:id="@+id/main_register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:text="Register for your Account "
+        android:textColor="#edf5ef"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/buttons"
+        android:backgroundTint="#bbd46a"
+        android:padding="20dp"
+        android:text="LOGIN TO YOUR ACCOUNT "
+        android:textColor="#1C2391"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
